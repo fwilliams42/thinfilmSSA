@@ -9,3 +9,5 @@ The functions that may be called are findSSA and/or findSSAsingle. The function 
 This implementation was achieved under the MATLAB license of Queensland University of Technology, Brisbane, Australia.
 
 M. Horn & F. Williams
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3335408.svg)](https://doi.org/10.5281/zenodo.3335408)
