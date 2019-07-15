@@ -4,8 +4,8 @@ Estimates the specific surface area of layered thin-film materials imaged by SEM
 This project additionally requires the edgelinking library produced by Peter Kovesi available here: https://www.peterkovesi.com/matlabfns/index.html#edgelink
 The library must be added to the Matlab path.
 
-The only functions that must be directly interacted with are findSSA and findSSAsingle. findSSA is optimised to work with the QUT Zeiss SEM .tif tag formatting, and allows for the automated processing of any number of files fitting said format in a folder. findSSAsingle is designed to work on single images that may not fit this format - for example .png or .jpg images that do not have the required image metadata tags.
+The functions that may be called are findSSA and/or findSSAsingle. The function findSSA is optimized to work with Zeiss Sigma scanning electron microscope .tif tag formatting, and allows for the automated processing of any number of files fitting this format, contained in a file folder. The findSSAsingle function is designed to work on single images without an image ribbon and that may not fit the .tif file format - for example .png or .jpg images that do not have the image metadata tags (but that have a known pixels/metre scale).
 
-These files were produced through the scholarship funding provided by QUT.
+This implementation was achieved under the MATLAB license of Queensland University of Technology, Brisbane, Australia.
 
 M. Horn & F. Williams
