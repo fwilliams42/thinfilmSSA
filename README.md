@@ -7,4 +7,5 @@ The library must be added to the Matlab path.
 The only functions that must be directly interacted with are findSSA and findSSAsingle. findSSA is optimised to work with the QUT Zeiss SEM .tif tag formatting, and allows for the automated processing of any number of files fitting said format in a folder. findSSAsingle is designed to work on single images that may not fit this format - for example .png or .jpg images that do not have the required image metadata tags.
 
 These files were produced through the scholarship funding provided by QUT.
+
 M. Horn & F. Williams
