@@ -30,7 +30,7 @@
 function [SSA, edgeimg, origimg] = findSSA(folderPath, density, cropcoords, scale, sens)
 
     if (nargin < 5)
-        sens = linspace(0.275, 0.35, 4); % Default sensitivty values.
+        sens = linspace(0.275, 0.35, 4); % Default sensitivity values.
     end
     
     if (nargin < 3 || isscalar(cropcoords))
